@@ -53,11 +53,13 @@ a {
  * Form
  --- */
  .button {
-    padding: 1rem 1.5rem;
+    padding: 5rem 1.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 3.25rem;
+    font-size: 5.25rem;
     animation: 2s linear infinite blink;
+    margin-left: 300px;
+    
   }
 
 /*---
@@ -111,6 +113,98 @@ a {
 
   .level-one {
     background-image: url(bathroom1.jpg);
-    background-position: center;
+    /* background-position: center; */
   }
 
+
+  /*---
+ * Partials
+ --- */
+  /* .level-header {
+    padding: 2rem 0;
+  }
+  
+  .level-header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  } */
+
+  .js-score {
+      color: black;
+      text-align: right;
+      margin-right: 50px;
+      font-size: 50px;
+  }
+
+  .level-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 1rem;
+  }
+  
+  .level-nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .level-nav li {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  .level-nav li:not(:last-of-type) {
+    margin-right: 1rem;
+  }
+  
+  .level-nav a {
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1rem;
+    overflow: hidden;
+    transition: all 400ms ease;
+  }
+  
+  .level-nav a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    height: 200%;
+    width: 200%;
+    background-color: #fff;
+    transition: all 400ms ease;
+    transform: translateY(100%) rotate(0deg);
+    z-index: -1;
+  }
+  
+  .level-nav a:hover {
+    color: #000;
+  }
+  
+  .level-nav a:hover:after {
+    transform: translateY(-25%) rotate(10deg);
+  }
+
+  /*---
+ * Modules
+ --- */
+.ball {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: black;
+    animation: 7s linear infinite backAndForth;
+    cursor: pointer;
+  }
