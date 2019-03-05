@@ -21,10 +21,21 @@ const scoreElement = document.querySelector('.poop-score')
  toiletElement.addEventListener('click', levelOne)
 
  //Stick poop on toilet
- const toilet = document.getElementById('toilet1')
- const createPoop = function(){
-    document.getElementById('toilet1').src="poop1.png"; 
- }
- toilet.addEventListener('click', createPoop)
+//  const toilet = document.getElementById('toilet1')
+//  const createPoop = function(){
+//     document.getElementById('toilet1').src="poop1.png"; 
+//  }
+//  toilet.addEventListener('click', createPoop)
 
 
+const toilet = document.getElementById('toilet1')
+function image()
+{
+    //dynamically add an image and set its attribute
+    const img=document.createElement("img");
+    img.src="poop1.png";
+    img.id="picture";
+    const foo = document.querySelector(".poop-toilet");
+    foo.appendChild(img);
+}
+toilet.addEventListener('click', image)
