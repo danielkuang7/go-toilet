@@ -21,6 +21,11 @@ h4 {
   color: #fff;
  }
 
+ #box {
+    width: 300px;
+    padding: 50px;
+  }
+
 a {
     color: #fff;
     text-decoration: none;
@@ -83,15 +88,15 @@ a {
     }
   
     25% {
-      transform: translateX(-500%);
+      transform: translateX(-200%);
     }
   
     75% {
-      transform: translateX(500%);
+      transform: translateX(200%);
     }
   
     100% {
-      transform: translateX(200%);
+      transform: translateX(-200%);
     }
   }
   
@@ -135,6 +140,17 @@ a {
     /* background-position: center; */
   }
 
+  .level-two {
+    background-image: url(bathroom2.png);
+    /* background-position: center; */
+  }
+
+  .level-three {
+    background-image: url(space1.jpg);
+    /* background-position: center; */
+  }
+
+
 
   /*---
  * Partials
@@ -151,7 +167,7 @@ a {
     flex-wrap: nowrap;
   } */
 
-  .js-score {
+  .poop-score {
       color: black;
       text-align: right;
       margin-right: 50px;
@@ -189,7 +205,7 @@ a {
     padding: 1rem;
     overflow: hidden;
     transition: all 400ms ease;
-    color: black;
+    color: #EB3712;
     font-size: 40px;
   }
   
@@ -217,28 +233,57 @@ a {
   /*---
  * Modules
  --- */
-/* .toilet {
+#toilet1 {
     display: block;
     position: absolute;
-    top: 200px;
+    top: 20px;
     left: 50px;
-    height: 20px;
+    height: 500px;
+    width: 30%;
+    /* border-radius: 50%;
+    background-color: black; */
+    animation: 10s linear infinite backAndForth;
+    cursor: pointer;
+    padding: 200px;
+  } 
+
+  
+
+  #toilet2 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    height: 300px;
+    width: 20%;
+    /* border-radius: 50%;
+    background-color: #fff; */
+    animation: 15s linear infinite backAndForth;
+    cursor: pointer;
+    padding: 300px;
+  }
+
+  #toilet3 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    height: 200px;
     width: 20%;
     /* border-radius: 50%;
     background-color: black; */
-    /* animation: 5s linear infinite backAndForth;
+    animation: 10s linear infinite backAndForth;
     cursor: pointer;
-  }  */
+    padding: 100px;
+  } 
 
-  .ball {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 4rem;
-    width: 4rem;
-    border-radius: 50%;
-    background-color: #fff;
-    animation: 7s linear infinite backAndForth;
-    cursor: pointer;
+  #poop1 {
+    height: 100px;
+    width: 10%;
   }
+
+  #toilet1.shot {
+    background-position: center;
+    background-image: url(poop1.png);
+  }
+  

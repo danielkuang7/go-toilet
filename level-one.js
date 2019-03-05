@@ -5,9 +5,9 @@
 
 let score = 0
 
-const ballElement = document.querySelector('.js-ball')
+const toiletElement = document.querySelector('.poop-toilet')
 
-const scoreElement = document.querySelector('.js-score')
+const scoreElement = document.querySelector('.poop-score')
 
  const levelOne = function(){
     
@@ -15,9 +15,16 @@ const scoreElement = document.querySelector('.js-score')
      scoreElement.innerText = score
      if(score == 100){
          alert('Congrats! Try level 2!')
-     }//  } else {
-    //      alert('Get 100 then you can play level 2!')
-    //  }
+     }
  }
 
- ballElement.addEventListener('click', levelOne)
+ toiletElement.addEventListener('click', levelOne)
+
+ //Stick poop on toilet
+ const toilet = document.getElementById('toilet1')
+ const createPoop = function(){
+    document.getElementById('toilet1').src="poop1.png"; 
+ }
+ toilet.addEventListener('click', createPoop)
+
+
