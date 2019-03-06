@@ -8,6 +8,7 @@
     font-family: 'Laila', serif;
     background-image: linear-gradient(to right top, #050737, #701053, #c63742, #e78d00, #c2eb12);;
   }
+
 main {
     min-height: 100vh;
   }
@@ -78,7 +79,8 @@ a {
   
 
 /*---
- * Views
+ * Views 
+   flexbox applied
  --- */
  .homepage main {
     display: flex;
@@ -127,7 +129,7 @@ a {
   #pooppoints {
     font-size: 50px;
     text-align: center;
-    color: #8B2F1E;
+    color: #F42408;
 
 }
 
