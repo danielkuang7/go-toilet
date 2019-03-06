@@ -31,29 +31,6 @@ a {
     text-decoration: none;
   }
 
-/*---
- * Typography
- --- */
- /* .title{
-    text-transform: uppercase;
-    font-size: 2rem;
-  }
-  .title.\--xl-large {
-    display: block;
-    position: relative;
-    font-size: 6rem;
-    letter-spacing: 10px;
-  }
-  .title.\--xl-large:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 60%;
-    height: 4px;
-    transform: rotate(-10deg);
-    background-color: #111;
-  } */
 
 /*---
  * Form
@@ -100,23 +77,6 @@ a {
     }
   }
   
-  /* @keyframes backAndForth {
-    0% {
-      transform: translateX(0);
-    }
-  
-    25% {
-      transform: translateX(-300%);
-    }
-  
-    75% {
-      transform: translateX(300%);
-    }
-  
-    100% {
-      transform: translateX(0);
-    }
-  } */
 
 /*---
  * Views
@@ -155,22 +115,12 @@ a {
   /*---
  * Partials
  --- */
-  /* .level-header {
-    padding: 2rem 0;
-  }
-  
-  .level-header .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-  } */
 
   .poop-score {
       color: #12EB52;
       text-align: center;
-      margin-right: 30px;
+      margin-right: 600px;
+      margin-left: 600px;
       font-size: 50px;
       background-color: black;
   }
@@ -249,8 +199,7 @@ a {
     left: 50px;
     height: 300px;
     width: 20%;
-    /* border-radius: 50%;
-    background-color: black; */
+    border-radius: 50px;
     animation: 5s linear infinite backAndForth;
     cursor: pointer;
     /* padding: 20px; */
@@ -265,8 +214,7 @@ a {
     left: 50px;
     height: 300px;
     width: 20%;
-    /* border-radius: 50%;
-    background-color: #fff; */
+    border-radius: 50px;
     animation: 6s linear infinite backAndForth;
     cursor: pointer;
     /* padding: 20px; */
@@ -279,8 +227,7 @@ a {
     left: 50px;
     height: 300px;
     width: 20%;
-    /* border-radius: 50%;
-    background-color: black; */
+    border-radius: 50px;
     animation: 5s linear infinite backAndForth;
     cursor: pointer;
     /* padding: 20px; */
@@ -293,22 +240,28 @@ a {
     left: 50px;
     height: 300px;
     width: 20%;
-    /* border-radius: 50%;
-    background-color: black; */
+    border-radius: 50px;
     animation: 4s linear infinite backAndForth;
     cursor: pointer;
     /* padding: 20px; */
   } 
 
-  #poop1 {
+  /* #poop1 {
     height: 100px;
     width: 10%;
-  }
+  } */
 
 
   #mrpoop1 {
-     height: 250px;
-     width: 15%;
+     height: 300px;
+     width: 20%;
      padding-top: 50px;
   }
+
+  #mrpoop2 {
+    padding-top: 50px;
+ }
+ #mrpoop3 {
+    padding-top: 50px;
+ }
   

@@ -14,7 +14,7 @@ const scoreElement = document.querySelector('.poop-score')
      score +=1;
      scoreElement.innerText = score
      if(score == 10){
-         alert('What a great pooper! Go out to conquer the world Champ 🤘🤘')
+         alert('Pooper! Your mind is reset. Go out to conquer the world 🤘🤘')
      }//  } else {
     //      alert('Get 100 then you can play level 2!')
     //  }
