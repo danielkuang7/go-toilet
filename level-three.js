@@ -24,7 +24,7 @@ const scoreElement = document.querySelector('.poop-score')
 
  //Stick poop on toilet
 
- const toilet = document.getElementById('toilet1')
+ const toilet = document.getElementById('toilet3')
 function image()
 {
     //dynamically add an image and set its attribute
