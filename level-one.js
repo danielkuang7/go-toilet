@@ -14,22 +14,27 @@ const scoreElement = document.querySelector('.poop-score')
      score +=1;
      scoreElement.innerText = score
      if(score == 10){
-         alert('Congrats! Try level 2!')
+         alert('Your 10 shots are done! See how many poops you got! Move on to next level to poop more! 🤪')
      } 
  }
 
  toiletElement.addEventListener('click', levelOne)
 
- //Stick poop on toilet
+ 
 
-const toilet = document.getElementById('toilet1')
+// Loading bar
+
+
+  //Stick poop on toilet
+
+let toilet = document.getElementById('toilet1')
 function image()
 {
 
-    const img=document.createElement("img");
+    let img=document.createElement("img");
     img.src="poop1.png";
-    img.id="mrpoop";
-    const foo = document.querySelector(".poop-toilet");
+    img.id="mrpoop1";
+    let foo = document.querySelector(".poop-toilet");
     foo.appendChild(img);
 }
 toilet.addEventListener('click', image)

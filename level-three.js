@@ -14,7 +14,7 @@ const scoreElement = document.querySelector('.poop-score')
      score +=1;
      scoreElement.innerText = score
      if(score == 10){
-         alert('Congrats! Try level 2!')
+         alert('What a great pooper! Go out to conquer the world Champ 🤘🤘')
      }//  } else {
     //      alert('Get 100 then you can play level 2!')
     //  }
@@ -29,8 +29,8 @@ function image()
 {
     //dynamically add an image and set its attribute
     const img=document.createElement("img");
-    img.src="poop1.png";
-    img.id="mrpoop";
+    img.src="poop3.png";
+    img.id="mrpoop3";
     const foo = document.querySelector(".poop-toilet");
     foo.appendChild(img);
 }

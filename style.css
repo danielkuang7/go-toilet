@@ -172,6 +172,7 @@ a {
       text-align: center;
       margin-right: 30px;
       font-size: 50px;
+      background-color: black;
   }
 
   #pooppoints {
@@ -214,6 +215,7 @@ a {
     transition: all 400ms ease;
     color: #12EB52;
     font-size: 40px;
+    background-color: black;
   }
   
   .level-nav a:after {
@@ -303,15 +305,10 @@ a {
     width: 10%;
   }
 
-  #toilet1.shot {
-    background-position: center;
-    background-image: url(poop1.png);
-  }
 
-  #mrpoop {
+  #mrpoop1 {
      height: 250px;
      width: 15%;
      padding-top: 50px;
   }
-  
   
