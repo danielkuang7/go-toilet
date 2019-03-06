@@ -11,30 +11,24 @@ const scoreElement = document.querySelector('.poop-score')
 
  const levelOne = function(){
     
-     score +=10;
+     score +=1;
      scoreElement.innerText = score
-     if(score == 100){
+     if(score == 10){
          alert('Congrats! Try level 2!')
-     }
+     } 
  }
 
  toiletElement.addEventListener('click', levelOne)
 
  //Stick poop on toilet
-//  const toilet = document.getElementById('toilet1')
-//  const createPoop = function(){
-//     document.getElementById('toilet1').src="poop1.png"; 
-//  }
-//  toilet.addEventListener('click', createPoop)
-
 
 const toilet = document.getElementById('toilet1')
 function image()
 {
-    //dynamically add an image and set its attribute
+
     const img=document.createElement("img");
     img.src="poop1.png";
-    img.id="picture";
+    img.id="mrpoop";
     const foo = document.querySelector(".poop-toilet");
     foo.appendChild(img);
 }

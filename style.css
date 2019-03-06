@@ -84,7 +84,7 @@ a {
 
   @keyframes backAndForth {
     0% {
-      transform: translateX(200%);
+      transform: translateX(50%);
     }
   
     25% {
@@ -92,11 +92,11 @@ a {
     }
   
     75% {
-      transform: translateX(200%);
+      transform: translateX(500%);
     }
   
     100% {
-      transform: translateX(-200%);
+      transform: translateX(-500%);
     }
   }
   
@@ -142,7 +142,7 @@ a {
 
   .level-two {
     background-image: url(bathroom2.png);
-    /* background-position: center; */
+    background-position: center top;
   }
 
   .level-three {
@@ -168,11 +168,18 @@ a {
   } */
 
   .poop-score {
-      color: black;
-      text-align: right;
-      margin-right: 50px;
+      color: #12EB52;
+      text-align: center;
+      margin-right: 30px;
       font-size: 50px;
   }
+
+  #pooppoints {
+    font-size: 50px;
+    text-align: center;
+    color: #8B2F1E;
+
+}
 
   .level-footer {
     position: absolute;
@@ -205,7 +212,7 @@ a {
     padding: 1rem;
     overflow: hidden;
     transition: all 400ms ease;
-    color: #EB3712;
+    color: #12EB52;
     font-size: 40px;
   }
   
@@ -238,13 +245,13 @@ a {
     position: absolute;
     top: 20px;
     left: 50px;
-    height: 500px;
-    width: 30%;
+    height: 300px;
+    width: 20%;
     /* border-radius: 50%;
     background-color: black; */
-    animation: 10s linear infinite backAndForth;
+    animation: 5s linear infinite backAndForth;
     cursor: pointer;
-    padding: 200px;
+    /* padding: 20px; */
   } 
 
   
@@ -258,9 +265,9 @@ a {
     width: 20%;
     /* border-radius: 50%;
     background-color: #fff; */
-    animation: 8s linear infinite backAndForth;
+    animation: 6s linear infinite backAndForth;
     cursor: pointer;
-    padding: 300px;
+    /* padding: 20px; */
   }
 
   #toilet3 {
@@ -268,13 +275,13 @@ a {
     position: absolute;
     top: 20px;
     left: 50px;
-    height: 250px;
-    width: 15%;
+    height: 300px;
+    width: 20%;
     /* border-radius: 50%;
     background-color: black; */
     animation: 5s linear infinite backAndForth;
     cursor: pointer;
-    padding: 100px;
+    /* padding: 20px; */
   } 
 
   #poop1 {
@@ -286,4 +293,11 @@ a {
     background-position: center;
     background-image: url(poop1.png);
   }
+
+  #mrpoop {
+     height: 250px;
+     width: 15%;
+     padding-top: 50px;
+  }
+  
   
