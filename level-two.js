@@ -29,7 +29,7 @@ function image()
 {
     //dynamically add an image and set its attribute
     const img=document.createElement("img");
-    img.src="poop2.png";
+    img.src="images/poop2.png";
     img.id="mrpoop2";
     const foo = document.querySelector(".poop-toilet");
     foo.appendChild(img);

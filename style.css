@@ -5,8 +5,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Inconsolata', monospace;
-    /* background-color: black; */
+    font-family: 'Laila', serif;
     background-image: linear-gradient(to right top, #050737, #701053, #c63742, #e78d00, #c2eb12);;
   }
 main {
@@ -17,7 +16,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Play', sans-serif;
+  font-family: 'Laila', serif;
   color: #fff;
  }
 
@@ -96,17 +95,17 @@ a {
   }
 
   .level-one {
-    background-image: url(bathroom1.jpg);
+    background-image: url(images/bathroom1.jpg);
     /* background-position: center; */
   }
 
   .level-two {
-    background-image: url(bathroom2.png);
+    background-image: url(images/bathroom2.png);
     background-position: center top;
   }
 
   .level-three {
-    background-image: url(space1.jpg);
+    background-image: url(images/space1.jpg);
     /* background-position: center; */
   }
 
@@ -141,7 +140,7 @@ a {
   }
   
   .level-nav ul {
-    padding: 0;
+    padding-left: 50px;
     margin: 0;
     text-align: center;
   }
@@ -166,6 +165,7 @@ a {
     color: #12EB52;
     font-size: 40px;
     background-color: black;
+    font-family: 'Laila', serif;
   }
   
   .level-nav a:after {

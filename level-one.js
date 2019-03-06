@@ -32,7 +32,7 @@ function image()
 {
 
     let img=document.createElement("img");
-    img.src="poop1.png";
+    img.src="images/poop1.png";
     img.id="mrpoop1";
     let foo = document.querySelector(".poop-toilet");
     foo.appendChild(img);
