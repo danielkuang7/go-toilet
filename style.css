@@ -1,0 +1,262 @@
+/*---
+ * Elements
+ --- */
+ body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Laila', serif;
+    background-image: linear-gradient(to right top, #050737, #701053, #c63742, #e78d00, #c2eb12);;
+  }
+
+main {
+    min-height: 100vh;
+  }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Laila', serif;
+  color: #fff;
+ }
+
+ #box {
+    width: 300px;
+    padding: 50px;
+  }
+
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+/*---
+ * Form
+ --- */
+ .button {
+    padding: 5rem 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 5.25rem;
+    animation: 2s linear infinite blink;
+    margin-left: 300px;
+    
+  }
+
+/*---
+ * Animations
+ --- */
+ @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+  
+    50% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes backAndForth {
+    0% {
+      transform: translateX(50%);
+    }
+  
+    25% {
+      transform: translateX(-200%);
+    }
+  
+    75% {
+      transform: translateX(500%);
+    }
+  
+    100% {
+      transform: translateX(-500%);
+    }
+  }
+  
+
+/*---
+ * Views 
+   flexbox applied
+ --- */
+ .homepage main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+ .instruction main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .level-one {
+    background-image: url(images/bathroom1.jpg);
+  }
+
+  .level-two {
+    background-image: url(images/bathroom2.png);
+    background-position: center top;
+  }
+
+  .level-three {
+    background-image: url(images/space1.jpg);
+  }
+
+
+
+  /*---
+ * Partials
+ --- */
+
+  .poop-score {
+      color: #12EB52;
+      text-align: center;
+      margin-right: 600px;
+      margin-left: 600px;
+      font-size: 50px;
+      background-color: black;
+  }
+
+  #pooppoints {
+    font-size: 50px;
+    text-align: center;
+    color: #F42408;
+
+}
+
+  .level-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 1rem;
+  }
+  
+  .level-nav ul {
+    padding-left: 50px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .level-nav li {
+    display: inline-block;
+    list-style-type: none;
+  }
+  
+  .level-nav li:not(:last-of-type) {
+    margin-right: 1rem;
+  }
+  
+  .level-nav a {
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1rem;
+    overflow: hidden;
+    transition: all 400ms ease;
+    color: #12EB52;
+    font-size: 40px;
+    background-color: black;
+    font-family: 'Laila', serif;
+  }
+  
+  .level-nav a:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50%;
+    height: 200%;
+    width: 200%;
+    background-color: #fff;
+    transition: all 400ms ease;
+    transform: translateY(100%) rotate(0deg);
+    z-index: -1;
+  }
+  
+  .level-nav a:hover {
+    color: #000;
+  }
+  
+  .level-nav a:hover:after {
+    transform: translateY(-25%) rotate(10deg);
+  }
+
+  /*---
+ * Modules
+ --- */
+#toilet1 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    height: 300px;
+    width: 20%;
+    border-radius: 50px;
+    animation: 5s linear infinite backAndForth;
+    cursor: pointer;
+    
+  } 
+
+  
+
+  #toilet2 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    height: 300px;
+    width: 20%;
+    border-radius: 50px;
+    animation: 6s linear infinite backAndForth;
+    cursor: pointer;
+    
+  }
+
+  #toilet3 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    height: 300px;
+    width: 20%;
+    border-radius: 50px;
+    animation: 5s linear infinite backAndForth;
+    cursor: pointer;
+    
+  } 
+
+  #toilet4 {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    height: 300px;
+    width: 20%;
+    border-radius: 50px;
+    animation: 4s linear infinite backAndForth;
+    cursor: pointer;
+  } 
+
+
+
+  #mrpoop1 {
+     height: 300px;
+     width: 20%;
+     padding-top: 50px;
+  }
+
+  #mrpoop2 {
+    padding-top: 50px;
+ }
+ #mrpoop3 {
+    padding-top: 50px;
+ }
+  
