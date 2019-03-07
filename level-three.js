@@ -15,9 +15,9 @@ const scoreElement = document.querySelector('.poop-score')
      scoreElement.innerText = score
      if(score == 10){
          alert('Pooper! Your mind is reset. Go out to conquer the world 🤘🤘')
-     }//  } else {
-    //      alert('Get 100 then you can play level 2!')
-    //  }
+     } else if(score >= 10){
+        score = 00;
+        }
  }
 
  poopElement.addEventListener('click', levelOne)

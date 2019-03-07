@@ -15,7 +15,9 @@ const scoreElement = document.querySelector('.poop-score')
      scoreElement.innerText = score
      if(score == 10){
          alert('Your 10 shots are done! See how many poops you got! Move on to level two to poop more! 🤪')
-     } 
+     } else if(score >= 10){
+     score = 00;
+     }
  }
 
  toiletElement.addEventListener('click', levelOne)
