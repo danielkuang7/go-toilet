@@ -14,7 +14,7 @@ const scoreElement = document.querySelector('.poop-score')
      score +=1;
      scoreElement.innerText = score
      if(score == 10){
-         alert('So creepy!! Move on to level three to stress out more poop!😱')
+         alert('So creepy!! Move on to level three to stress out more poop poop!😱')
      } else if(score >= 10){
         score = 00;
         }

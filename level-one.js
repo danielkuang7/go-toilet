@@ -14,7 +14,7 @@ const scoreElement = document.querySelector('.poop-score')
      score +=1;
      scoreElement.innerText = score
      if(score == 10){
-         alert('Your 10 shots are done! See how many poops you got! Move on to level two to poop more! 🤪')
+         alert('Your 10 shots are out! Top pooper got more than 8 poops. See how many poops you got! Move on to the level two to poop more! 🤪')
      } else if(score >= 10){
      score = 00;
      }
