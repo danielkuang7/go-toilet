@@ -98,7 +98,6 @@ a {
 
   .level-one {
     background-image: url(images/bathroom1.jpg);
-    /* background-position: center; */
   }
 
   .level-two {
@@ -108,7 +107,6 @@ a {
 
   .level-three {
     background-image: url(images/space1.jpg);
-    /* background-position: center; */
   }
 
 
@@ -204,7 +202,7 @@ a {
     border-radius: 50px;
     animation: 5s linear infinite backAndForth;
     cursor: pointer;
-    /* padding: 20px; */
+    
   } 
 
   
@@ -219,7 +217,7 @@ a {
     border-radius: 50px;
     animation: 6s linear infinite backAndForth;
     cursor: pointer;
-    /* padding: 20px; */
+    
   }
 
   #toilet3 {
@@ -232,7 +230,7 @@ a {
     border-radius: 50px;
     animation: 5s linear infinite backAndForth;
     cursor: pointer;
-    /* padding: 20px; */
+    
   } 
 
   #toilet4 {
@@ -245,13 +243,8 @@ a {
     border-radius: 50px;
     animation: 4s linear infinite backAndForth;
     cursor: pointer;
-    /* padding: 20px; */
   } 
 
-  /* #poop1 {
-    height: 100px;
-    width: 10%;
-  } */
 
 
   #mrpoop1 {
