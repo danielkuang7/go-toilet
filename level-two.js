@@ -14,7 +14,7 @@ const scoreElement = document.querySelector('.poop-score')
      score +=1;
      scoreElement.innerText = score
      if(score == 10){
-         alert('Looks like you still got some stress! Move on to level three to stress out more poop!😱')
+         alert('So creepy!! Move on to level three to stress out more poop!😱')
      }//  } else {
     //      alert('Get 100 then you can play level 2!')
     //  }
