@@ -22,16 +22,14 @@ const scoreElement = document.querySelector('.poop-score')
 
  poopElement.addEventListener('click', levelOne)
 
- //Stick poop on toilet
+ //Poop attach
 
  const toilet = document.getElementById('toilet3')
-function image()
-{
-    //dynamically add an image and set its attribute
+function image(){
     const img=document.createElement("img");
     img.src="images/poop3.png";
     img.id="mrpoop3";
-    const foo = document.querySelector(".poop-toilet");
-    foo.appendChild(img);
+    const poop = document.querySelector(".poop-toilet");
+    poop.appendChild(img);
 }
 toilet.addEventListener('click', image)
