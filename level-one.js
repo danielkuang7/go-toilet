@@ -14,7 +14,7 @@ const scoreElement = document.querySelector('.poop-score')
      score +=1;
      scoreElement.innerText = score
      if(score == 10){
-         alert('Your 10 shots are out! Top pooper got more than 8 poops. See how many poops you got! Move on to the level two to poop more! 🤪')
+         alert('Your 10 shots are out! Top pooper got more than 8 poops. See how many poops you got! Move on to level two to poop more! 🤪')
      } else if(score >= 10){
      score = 00;
      }
@@ -24,19 +24,16 @@ const scoreElement = document.querySelector('.poop-score')
 
  
 
-// Loading bar
 
-
-  //Stick poop on toilet
+  //Poop attach
 
 let toilet = document.getElementById('toilet1')
-function image()
-{
+function image(){
 
     let img=document.createElement("img");
     img.src="images/poop1.png";
     img.id="mrpoop1";
-    let foo = document.querySelector(".poop-toilet");
-    foo.appendChild(img);
+    let poop = document.querySelector(".poop-toilet");
+    poop.appendChild(img);
 }
 toilet.addEventListener('click', image)
