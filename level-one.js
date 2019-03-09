@@ -3,20 +3,20 @@
  *
  */
 
-let score = 0
+let shots = 0
 
 const toiletElement = document.querySelector('.poop-toilet')
 
-const scoreElement = document.querySelector('.poop-score')
+const shotsElement = document.querySelector('.poop-score')
 
  const levelOne = function(){
     
-     score +=1;
-     scoreElement.innerText = score
-     if(score == 10){
+     shots +=1;
+     shotsElement.innerText = shots
+     if(shots == 10){
          alert('Your 10 shots are out! Top pooper got more than 8 poops. See how many poops you got! Move on to level two to poop more! 🤪')
-     } else if(score >= 10){
-     score = 00;
+     } else if(shots >= 10){
+     shots = 00;
      }
  }
 
@@ -27,7 +27,7 @@ const scoreElement = document.querySelector('.poop-score')
 
   //Poop attach
 
-let toilet = document.getElementById('toilet1')
+const toilet = document.getElementById('toilet1')
 function image(){
 
     let img=document.createElement("img");

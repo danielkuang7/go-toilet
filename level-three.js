@@ -1,22 +1,22 @@
 /*
- * POOP: Level One
+ * POOP: Level Three
  *
  */
 
-let score = 0
+let shots = 0
 
 const poopElement = document.querySelector('.poop-toilet')
 
-const scoreElement = document.querySelector('.poop-score')
+const shotsElement = document.querySelector('.poop-shots')
 
  const levelOne = function(){
     
-     score +=1;
-     scoreElement.innerText = score
-     if(score == 10){
+     shots +=1;
+     shotsElement.innerText = shots
+     if(shots == 10){
          alert('Pooper! Your mind is reset. Go out to conquer the world 🤘🤘')
-     } else if(score >= 10){
-        score = 00;
+     } else if(shots >= 10){
+        shots = 00;
         }
  }
 
@@ -24,7 +24,7 @@ const scoreElement = document.querySelector('.poop-score')
 
  //Poop attach
 
- const toilet = document.getElementById('toilet3')
+const toilet = document.getElementById('toilet3')
 function image(){
     const img=document.createElement("img");
     img.src="images/poop3.png";
