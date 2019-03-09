@@ -4,5 +4,15 @@
 
 #### Let's poop, POOPER! https://danielkuang7.github.io/poop-out-stress/
 
-![poop](images/poop4.png)
 
+
+
+
+![poop](images/poop4.png) ![poop](images/poop4.png) 
+
+
+
+
+
+
+![homepage](images/poopproject.png)
