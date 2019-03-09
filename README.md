@@ -1,3 +1,4 @@
+![homepage](images/poopproject.png)
 # poop-out-stress
 + Everybody got stress. Don't hold it, poop it!
 + This game is built on ES6, HTML5, and CSS. 
@@ -15,4 +16,4 @@
 
 
 
-![homepage](images/poopproject.png)
+
