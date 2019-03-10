@@ -3,13 +3,15 @@
  *
  */
 
+ //Set 10 shots for player to play
+
 let shots = 0
 
 const poopElement = document.querySelector('.poop-toilet')
 
 const shotsElement = document.querySelector('.poop-shots')
 
- const levelOne = function(){
+ function levelTwo(){
     
      shots +=1;
      shotsElement.innerText = shots
@@ -20,16 +22,16 @@ const shotsElement = document.querySelector('.poop-shots')
         }
  }
 
- poopElement.addEventListener('click', levelOne)
+ poopElement.addEventListener('click', levelTwo)
 
- //Poop attach
+ ////Poop shows up once the player shots the right toilet
 
 const toilet = document.getElementById('toilet2')
 function image(){
-    const img=document.createElement("img");
-    img.src="images/poop2.png";
-    img.id="mrpoop2";
-    const poop = document.querySelector(".poop-toilet");
-    poop.appendChild(img);
+    const img=document.createElement("img")
+    img.src="images/poop2.png"
+    img.id="mrpoop2"
+    const poop = document.querySelector(".poop-toilet")
+    poop.appendChild(img)
 }
 toilet.addEventListener('click', image)
