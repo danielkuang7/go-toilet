@@ -7,7 +7,7 @@ let shots = 0
 
 const toiletElement = document.querySelector('.poop-toilet')
 
-const shotsElement = document.querySelector('.poop-score')
+const shotsElement = document.querySelector('.poop-shots')
 
  const levelOne = function(){
     
@@ -21,8 +21,6 @@ const shotsElement = document.querySelector('.poop-score')
  }
 
  toiletElement.addEventListener('click', levelOne)
-
- 
 
 
   //Poop attach
