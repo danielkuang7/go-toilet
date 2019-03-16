@@ -16,7 +16,7 @@ const shotsElement = document.querySelector('.poop-shots')
      shots +=1;
      shotsElement.innerText = shots
      if(shots == 10){
-         alert('Your 10 shots are out! Top pooper got more than 8 poops. See how many poops you got! Move on to level two to poop more! 🤪')
+         alert('Your 10 shots are out! You need to have at least 5 poops to win the game. See how many poops you got! Click on the level two to poop more! 🤪')
      } else if(shots >= 10){
      shots = 00;
      }
