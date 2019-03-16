@@ -16,7 +16,7 @@ const shotsElement = document.querySelector('.poop-shots')
      shots +=1;
      shotsElement.innerText = shots
      if(shots == 10){
-         alert('So creepy!! Move on to level three to stress out more poop poop!😱')
+         alert('So creepy!! click on level three if you got more than 5 poops!😱')
      } else if(shots >= 10){
         shots = 00;
         }
