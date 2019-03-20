@@ -14,6 +14,9 @@ This is a shooting game built on JavaScript, HTML5, and CSS. The objective is to
 
 ![poop](images/poop4.png) ![poop](images/poop4.png) 
 
+### Credits
+This game was made as part of General Assembly's Web Development Immersive
+
 
 
 
